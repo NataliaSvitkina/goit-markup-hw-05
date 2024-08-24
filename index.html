@@ -436,13 +436,24 @@
                         </svg>
                     </div>
                 </div>
-                <div class="window-modal-form">
+                <div class="window-modal-form window-modal-form-content">
                     <label for="user-comment" class="window-modal-form-name">
                         Comment
                     </label>
-                    <div class="window-modal-form-user-name">
-                        <textarea id="user-comment" name="user-comment" placeholder="Text input" class="window-modal-form-user-textarea">
-                    </div>
+                    <textarea id="user-comment" name="user-comment" placeholder="Text input" class="window-modal-form-user-textarea">
+                </div>
+                <div class="window-modal-form-checkbox">
+                    <input id="user-privacy" type="checkbox" value="true" name="user-privacy" class="window-modal-form-checkbox-input visually-hidden">
+                    <label for="user-privacy" class="window-modal-form-checkbox-label">
+                        I accept the terms and conditions of the
+                        <span class="window-modal-form-checkbox-span">
+                            <svg width="10" height="8" class="window-modal-form-checkbox-icon">
+                                <use href="./images/icons.svg">
+
+                                </use>
+                            </svg>
+                        </span>
+                    </label>
                 </div>
             </form>
         </div>
